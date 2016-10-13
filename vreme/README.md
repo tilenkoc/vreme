@@ -1,2 +1,0 @@
-# vreme
-Aplikacija za vreme
