@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor2"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/mesto"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="225dp"
+        android:id="@+id/ikona"
+        android:clickable="true"
+        android:layout_below="@+id/naz_posodobljeno"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/naz_posodobljeno"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/mesto"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/temperatura"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ikona" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/sptest"
+        android:layout_alignBottom="@+id/temperatura"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/izpistestkraj"
+        android:layout_above="@+id/sptest"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/zaslon1"
+        android:layout_above="@+id/izpistestkraj"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

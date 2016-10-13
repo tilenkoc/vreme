@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nastavitve">Nastavitve</string>
+    <string name="search">Iskanje</string>
+    <string name="refresh">Posodobi</string>
+    <string name="pomoc">pomoc</string>
+</resources>

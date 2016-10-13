@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <ListPreference     android:title="Enote"
+        android:summary="Izberi kakšne enote, boš uporabljal za prikaz temperature."
+        android:key="enote"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+
+
+
+    <Preference
+        android:title="About"
+        android:summary="v2.0       Avtorja: Aljaž Gaber in Tilen Kocbek "
+        android:key="about"
+        android:entries="@array/listArray" />
+
+</PreferenceScreen>

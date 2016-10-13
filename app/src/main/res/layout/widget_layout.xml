@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="210dp"
+    android:background="#757575"
+    android:id="@+id/widgetLayout">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Maribor"
+        android:textColor="#000000"
+        android:id="@+id/textViewWidgetCity"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:layout_columnSpan="3"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_row="8"
+        android:layout_column="6">
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Stopinje"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:id="@+id/stopinjeWidget"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+           android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/vremeImageView"
+                android:layout_weight="0.49" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Aplikacija"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/textViewApplikacija"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_columnSpan="7"
+        android:background="#ffffff"
+        android:gravity="center" />
+</GridLayout>

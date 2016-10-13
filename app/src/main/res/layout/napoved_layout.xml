@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/backgroundColor2">>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="110dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/dan"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:gravity="top|bottom|center" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="60dp"
+            android:id="@+id/vreme"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_column="24" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="110dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/temperatura"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_column="47" />
+    </TableRow>
+
+</TableLayout>

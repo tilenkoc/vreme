@@ -1,0 +1,20 @@
+<current>
+<city id="3195506" name="MariborF">
+<coord lon="15.65" lat="46.55"/>
+<country>SI</country>
+<sun rise="2015-11-14T05:58:02" set="2015-11-14T15:25:07"/>
+</city>
+<temperature value="444" min="13.12" max="13.12" unit="metric"/>
+<humidity value="68" unit="%"/>
+<pressure value="990.32" unit="hPa"/>
+<wind>
+<speed value="1.6" name="Light breeze"/>
+<gusts/>
+<direction value="124.012" code="SE" name="SouthEast"/>
+</wind>
+<clouds value="0" name="clear sky"/>
+<visibility/>
+<precipitation mode="no"/>
+<weather number="801" value="Sky is Clear" icon="01d"/>
+<lastupdate value="1111-11-14T12:51:32"/>
+</current>

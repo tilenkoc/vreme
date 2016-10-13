@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".main">
+
+
+    <item
+    android:id="@+id/nastavitve"
+    android:title="@string/nastavitve"
+    android:icon="@drawable/ikona"
+        android:orderInCategory="100"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/pomoc"
+        android:title="@string/pomoc"
+        android:icon="@drawable/p"
+        android:orderInCategory="99"
+
+        app:showAsAction="always" />
+    <item
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/search"
+        android:title="@string/search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:layout_gravity="right"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+
+</menu>
